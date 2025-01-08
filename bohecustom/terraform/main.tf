@@ -1,4 +1,3 @@
-data "aws_caller_identity" "current" {}
 
 module "webapp-build-bucket" {
   source = "./modules/base-modules/website-bucket"
